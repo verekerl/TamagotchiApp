@@ -18,5 +18,18 @@ class TamagotchiAppTests: XCTestCase {
         XCTAssertEqual(tamagotchi.happiness, 7)
         XCTAssertEqual(tamagotchi.alive, true)
     }
+    
+    func testDisplayAllTamagotchiStats() {
+        let tamagotchi = Tamagotchi(name: "Bob", height: 1.3, weight: 25, happiness: 7, alive: true)
+        let expected = """
+        Name: \(tamagotchi.name)
+        Height: \(tamagotchi.height)m
+        Weight: \(tamagotchi.weight)kg
+        Happiness: \(tamagotchi.happiness)
+        Alive: \(tamagotchi.alive)
+        """
+        let actual = tamagotchi.displayTamagotchiStats()
+        XCTAssertEqual(actual,expected)
+    }
 
 }

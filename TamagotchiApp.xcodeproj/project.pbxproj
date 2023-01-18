@@ -11,10 +11,10 @@
 		CC85A5B82972C05500FF99BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5B72972C05500FF99BF /* ContentView.swift */; };
 		CC85A5BA2972C05600FF99BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85A5B92972C05600FF99BF /* Assets.xcassets */; };
 		CC85A5BD2972C05600FF99BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85A5BC2972C05600FF99BF /* Preview Assets.xcassets */; };
-		CC85A5C72972C05700FF99BF /* TamagotchiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5C62972C05700FF99BF /* TamagotchiAppTests.swift */; };
 		CC85A5D12972C05700FF99BF /* TamagotchiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5D02972C05700FF99BF /* TamagotchiAppUITests.swift */; };
 		CC85A5D32972C05700FF99BF /* TamagotchiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5D22972C05700FF99BF /* TamagotchiAppUITestsLaunchTests.swift */; };
 		CC85A5E02972C0F500FF99BF /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5DF2972C0F500FF99BF /* Tamagotchi.swift */; };
+		CCB1A6C82977FA0D00D4B963 /* TamagotchiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5C62972C05700FF99BF /* TamagotchiAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC85A5C72972C05700FF99BF /* TamagotchiAppTests.swift in Sources */,
+				CCB1A6C82977FA0D00D4B963 /* TamagotchiAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
