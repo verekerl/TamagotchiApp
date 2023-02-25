@@ -12,14 +12,18 @@ class Tamagotchi {
     let height: Double
     var weight: Int
     var happiness: Int
-    let alive: Bool
+    var age: Int
+    var bathroom: Bool
+    var isSick: Bool
     
-    init(name: String, height: Double, weight: Int, happiness: Int, alive: Bool) {
+    init(name: String, height: Double, weight: Int, happiness: Int, age: Int, bathroom: Bool, isSick: Bool) {
         self.name = name
         self.height = height
         self.weight = weight
         self.happiness = happiness
-        self.alive = alive
+        self.age = age
+        self.bathroom = bathroom
+        self.isSick = isSick
     }
     
     func displayTamagotchiStats() -> String {
@@ -28,7 +32,9 @@ class Tamagotchi {
             Height: \(height)m
             Weight: \(weight)kg
             Happiness: \(happiness)
-            Alive: \(alive)
+            Alive: \(age) years old
+            Bathroom: \(bathroom)
+            Sick: \(isSick)
             """
     }
 }
