@@ -11,18 +11,18 @@ import XCTest
 class TamagotchiAppTests: XCTestCase {
 
     func testTamagotchiAttributes() {
-        let tamagotchi = Tamagotchi(name: "Bob", height: 1.3, weight: 25, happiness: 7, age: 1, bathroom: false, isSick: false)
-        XCTAssertEqual(tamagotchi.name, "Bob")
+        let tamagotchi = Tamagotchi(height: 1.3, weight: 25, happiness: 7, age: 1, bathroom: false, isSick: false)
         XCTAssertEqual(tamagotchi.height, 1.3)
         XCTAssertEqual(tamagotchi.weight, 25)
         XCTAssertEqual(tamagotchi.happiness, 7)
         XCTAssertEqual(tamagotchi.age, 1)
+        XCTAssertEqual(tamagotchi.bathroom, false)
+        XCTAssertEqual(tamagotchi.isSick, false)
     }
     
     func testDisplayAllTamagotchiStats() {
-        let tamagotchi = Tamagotchi(name: "Bob", height: 1.3, weight: 25, happiness: 7, age: 1, bathroom: false, isSick: false)
+        let tamagotchi = Tamagotchi(height: 1.3, weight: 25, happiness: 7, age: 1, bathroom: false, isSick: false)
         let expected = """
-        Name: \(tamagotchi.name)
         Height: \(tamagotchi.height)m
         Weight: \(tamagotchi.weight)kg
         Happiness: \(tamagotchi.happiness)

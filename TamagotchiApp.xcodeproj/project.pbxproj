@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5014241229AA0D3400BF1AC7 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014241129AA0D3400BF1AC7 /* Timer.swift */; };
+		50B4096B29B2956C00841BD4 /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4096A29B2956C00841BD4 /* DieView.swift */; };
 		CC85A5B62972C05500FF99BF /* TamagotchiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5B52972C05500FF99BF /* TamagotchiAppApp.swift */; };
 		CC85A5B82972C05500FF99BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85A5B72972C05500FF99BF /* ContentView.swift */; };
 		CC85A5BA2972C05600FF99BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85A5B92972C05600FF99BF /* Assets.xcassets */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5014241129AA0D3400BF1AC7 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		50B4096A29B2956C00841BD4 /* DieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
 		CC85A5B22972C05500FF99BF /* TamagotchiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamagotchiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC85A5B52972C05500FF99BF /* TamagotchiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiAppApp.swift; sourceTree = "<group>"; };
 		CC85A5B72972C05500FF99BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			children = (
 				CC85A5B52972C05500FF99BF /* TamagotchiAppApp.swift */,
 				CC85A5B72972C05500FF99BF /* ContentView.swift */,
-				5014241129AA0D3400BF1AC7 /* Timer.swift */,
+				50B4096A29B2956C00841BD4 /* DieView.swift */,
 				CC85A5B92972C05600FF99BF /* Assets.xcassets */,
 				CC85A5BB2972C05600FF99BF /* Preview Content */,
 			);
@@ -264,9 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC85A5B82972C05500FF99BF /* ContentView.swift in Sources */,
+				50B4096B29B2956C00841BD4 /* DieView.swift in Sources */,
 				CC85A5E02972C0F500FF99BF /* Tamagotchi.swift in Sources */,
 				CC85A5B62972C05500FF99BF /* TamagotchiAppApp.swift in Sources */,
-				5014241229AA0D3400BF1AC7 /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

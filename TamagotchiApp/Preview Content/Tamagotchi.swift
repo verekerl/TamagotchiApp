@@ -8,7 +8,6 @@
 import Foundation
 
 class Tamagotchi {
-    let name: String
     let height: Double
     var weight: Int
     var happiness: Int
@@ -16,8 +15,7 @@ class Tamagotchi {
     var bathroom: Bool
     var isSick: Bool
     
-    init(name: String, height: Double, weight: Int, happiness: Int, age: Int, bathroom: Bool, isSick: Bool) {
-        self.name = name
+    init(height: Double, weight: Int, happiness: Int, age: Int, bathroom: Bool, isSick: Bool) {
         self.height = height
         self.weight = weight
         self.happiness = happiness
@@ -28,7 +26,6 @@ class Tamagotchi {
     
     func displayTamagotchiStats() -> String {
         return """
-            Name: \(name)
             Height: \(height)m
             Weight: \(weight)kg
             Happiness: \(happiness)
